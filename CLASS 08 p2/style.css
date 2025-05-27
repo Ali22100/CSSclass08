@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+  /* border: 2px solid black; */
+  width: 60%;
+  border-radius: 10px;
+  /* box-shadow:0px 10px 10px 0px; */
+}
+
+#box {
+    width: 600px;
+    height: 500px;
+    background: linear-gradient(
+    -40deg, 
+    rgb(255, 255, 255)50% ,
+    rgb(0, 199, 90)50%
+  );
+  
+  }
+
+ .half-page{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left:40px ;
+    position: relative;
+    top: 50px;
+  }
+
+  .half-page2  {color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left:40px ;
+    position: relative;
+    top: 50px;
+    margin-top: 20px;
+  }
+  .button-1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 80px;
+    left: 40px;
+    background-color: rgb(0, 199, 90);
+    border: 1px solid white;
+    width: 100px;
+    height: 5vh;
+    border-radius: 20px;
+    font-size:15px;
+  }
+
+  
+  .h-p2{
+    color: rgb(43, 43, 43);
+    position: absolute;
+    top: 70px;
+    left: 550px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:inherit;
+  }
+span{
+    color: red;
+}
+  .div-input{
+    color: rgb(43, 43, 43);
+    position: absolute;
+    top: 120px;
+    left: 550px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .input1{
+    outline: none;
+    height: 5vh;
+    width: 230px;
+    padding-left: 8px;
+    border-radius: 20px;
+    margin-top: 8px;
+    border: 1px solid gray;
+  }
+
+  .div-input2{
+    color: rgb(43, 43, 43);
+    position: absolute;
+    top: 210px;
+    left: 550px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ 
+  .button-2{
+    margin: 25px;
+    width: 230px;
+    height: 6vh;
+    border-radius: 20px;
+    border: 1px solid    rgb(0, 199, 90);
+    color:    rgb(0, 199, 90);
+    position: relative;
+    left: -25px;
+  }
+
+  #last-p{
+    color:    rgb(0, 199, 90);
+  }
+

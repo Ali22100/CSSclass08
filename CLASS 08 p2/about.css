@@ -1,0 +1,72 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+body{  background: linear-gradient(to right, #cef9ff, #ffffff);}
+  
+  /* Header */
+  .heading {
+    text-align: center;
+    font-size: 36px;
+    color: rgb(1, 97, 76);
+    margin-bottom: 30px;
+    border-bottom: 2px solid  rgb(1, 97, 76);
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+    text-align: center; 
+    text-decoration: none;
+  }
+  
+
+  /* Paragraph Styling */
+  .pra {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 18px;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    line-height: 1.8;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Paragraph hover effect (optional) */
+  .pra:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+
+    
+  nav a:hover {
+    transition: 1s;
+    color: rgb(3, 216, 170) !important; /* Blue hover color */
+    text-decoration: underline ; /* Underline on hover */
+   letter-spacing: 2px;
+    border-radius: 10px;
+    
+  }
+  nav a::before {
+    color: rgb(6, 15, 13) !important;
+  }
+  
+  nav a::after {
+    color: rgb(3, 216, 170) !important;
+  }
+  
+
+
+
+footer {
+  background-color:  rgb(0, 126, 98);
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
